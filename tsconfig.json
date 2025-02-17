@@ -9,12 +9,13 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "server"],
+  "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

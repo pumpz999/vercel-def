@@ -1,41 +1,13 @@
 # DeFi Platform
 
-## Prerequisites
-- Node.js 18+
-- npm or yarn
-- Vercel CLI (optional)
+## Overview
+Decentralized Finance Platform with Web3 Integration
 
-## Local Development
-1. Clone the repository
-2. Install dependencies
-   ```bash
-   npm install
-   ```
-3. Create `.env` file with required keys
-4. Run development server
-   ```bash
-   npm run dev
-   ```
-
-## Deployment Steps
-1. Install Vercel CLI
-   ```bash
-   npm i -g vercel
-   ```
-
-2. Login to Vercel
-   ```bash
-   vercel login
-   ```
-
-3. Deploy
-   ```bash
-   vercel
-   ```
-
-## Environment Variables
-- `VITE_ALCHEMY_API_KEY`: Alchemy Web3 API Key
-- `VITE_WALLET_CONNECT_PROJECT_ID`: WalletConnect Project ID
+## Features
+- Token Swap
+- Lending
+- Portfolio Tracking
+- Web3 Wallet Connection
 
 ## Tech Stack
 - React
@@ -43,4 +15,29 @@
 - TypeScript
 - Tailwind CSS
 - Web3 Libraries
-- Vercel Hosting
+
+## Local Development
+1. Clone Repository
+2. Install Dependencies
+   ```bash
+   pnpm install
+   ```
+3. Run Development Server
+   ```bash
+   pnpm dev
+   ```
+
+## Deployment
+Deployed on Vercel with automatic GitHub integration
+
+## Environment Setup
+Create `.env` file with:
+- Alchemy API Key
+- WalletConnect Project ID
+
+## Contributing
+1. Fork Repository
+2. Create Feature Branch
+3. Commit Changes
+4. Push to Branch
+5. Create Pull Request

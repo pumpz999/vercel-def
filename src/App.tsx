@@ -13,6 +13,7 @@ const Home = React.lazy(() => import('./pages/Home'))
 const Swap = React.lazy(() => import('./pages/Swap'))
 const Lending = React.lazy(() => import('./pages/Lending'))
 const Portfolio = React.lazy(() => import('./pages/Portfolio'))
+const Admin = React.lazy(() => import('./pages/Admin'))
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -48,6 +49,7 @@ function App() {
                     <Route path="/swap" element={<Swap />} />
                     <Route path="/lending" element={<Lending />} />
                     <Route path="/portfolio" element={<Portfolio />} />
+                    <Route path="/admin" element={<Admin />} />
                   </Routes>
                 </Suspense>
               </div>
